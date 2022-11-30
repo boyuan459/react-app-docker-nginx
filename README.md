@@ -63,4 +63,10 @@ docker run f449f7952377 npm run test
 ```
 npm run build:docker
 docker run -p 8080:80 108a832465d8
+
+# tag image
+docker tag web-client:latest boyuan/web-client:1.0.0
+
+# push image to docker hub
+docker push boyuan/web-client:1.0.0
 ``

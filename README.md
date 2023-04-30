@@ -62,7 +62,7 @@ docker run f449f7952377 npm run test
 ## Build Production Docker image
 ```
 npm run build:docker
-docker run -p 8080:80 108a832465d8
+docker run -p 8080:80 web-client
 
 # tag image
 docker tag web-client:latest boyuan/web-client:1.0.0

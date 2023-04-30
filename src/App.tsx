@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Best frontend framework In
+          Best frontend framework In - v3
         </p>
       </header>
     </div>
